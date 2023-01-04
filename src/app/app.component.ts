@@ -7,8 +7,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   message:string
-  // constructor(private http: HttpClient) {
-  //   this.http.get('/api/message')
-  //     .subscribe((resp: any) => this.message = resp.text);
-  // }
+  constructor(private http: HttpClient) {
+    this.http.get('/api/message')
+      .subscribe((resp: any) => this.message = resp.text);
+  }
 }
