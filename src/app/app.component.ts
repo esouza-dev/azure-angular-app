@@ -4,7 +4,7 @@ import { environment } from './../environments/environment';
 
 @Component({
   selector: 'app-root',
-  template: `<div>[{{message}}] </div><br /><app-table></app-table>`,
+  template: `<app-login></app-login>`,
 })
 export class AppComponent {
   message:string

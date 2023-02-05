@@ -6,10 +6,10 @@ import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { AppComponent } from "./app.component";
-import { TableComponent } from './components/table/table.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
-  declarations: [AppComponent, TableComponent],
+  declarations: [AppComponent, LoginComponent],
   imports: [BrowserModule,BrowserAnimationsModule,
     HttpClientModule,MatTableModule,MatIconModule,MatButtonModule],
   bootstrap: [AppComponent]
